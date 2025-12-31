@@ -66,6 +66,30 @@ Free Cloud account имеет ограничения:
 
 ## Ответ:
 
+### файл ` sentry_test.py `
+
+```python
+import sentry_sdk
+
+sentry_sdk.init(
+    dsn="ВАШ_DSN",
+    traces_sample_rate=1.0,
+    environment="development"
+)
+
+with sentry_sdk.configure_scope() as scope:
+    scope.set_user({"id": "123", "email": "dev@example.com"})
+    scope.set_tag("priority", "high")
+    scope.set_extra("class_name", "Netology_Homework")
+
+sentry_sdk.capture_message("Это кастомное сообщение для проверки алертов", level="warning")
+
+try:
+    result = 10 / 0
+except Exception as e:
+    sentry_sdk.capture_exception(e)
+```
+
 <img width="1920" height="1080" alt="Снимок экрана (2366)" src="https://github.com/user-attachments/assets/22652991-5a54-43a0-9fd6-6bcdf1514ede" />
 
 <img width="1920" height="1080" alt="Снимок экрана (2367)" src="https://github.com/user-attachments/assets/4cff235c-8f80-4d34-ba92-c393820a8b3b" />
