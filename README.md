@@ -8,15 +8,17 @@
 
 Free Cloud account имеет ограничения:
 
-5 000 errors;
-10 000 transactions;
-1 GB attachments.
+  * 5 000 errors;
+  * 10 000 transactions;
+  * 1 GB attachments.
+
 Для подключения Free Cloud account:
 
-зайдите на sentry.io;
-нажмите «Try for free»;
-используйте авторизацию через ваш GitHub-аккаунт;
-далее следуйте инструкциям.
+  * зайдите на sentry.io;
+  * нажмите «Try for free»;
+  * используйте авторизацию через ваш GitHub-аккаунт;
+  * далее следуйте инструкциям.
+
 В качестве решения задания пришлите скриншот меню Projects.
 
 ## Ответ:
