@@ -47,11 +47,32 @@ Free Cloud account имеет ограничения:
 5. В качестве решения задания пришлите скриншот тела сообщения из оповещения на почте.
 6. Дополнительно поэкспериментируйте с правилами алёртинга. Выбирайте разные условия отправки и создавайте sample events.
 
+## Ответ:
+
 <img width="1920" height="1080" alt="Снимок экрана (2359)" src="https://github.com/user-attachments/assets/14f2ac6a-51d7-4b30-b353-4fc596ceea35" />
 
 <img width="1920" height="1080" alt="Снимок экрана (2360)" src="https://github.com/user-attachments/assets/8938b64b-123a-4668-ac03-249faac6cb09" />
 
 <img width="1920" height="1080" alt="Снимок экрана (2361)" src="https://github.com/user-attachments/assets/9d375670-332c-4215-94eb-e8bebbd2100a" />
+
+
+## Задание повышенной сложности
+
+1. Создайте проект на ЯП Python или GO (около 10–20 строк), подключите к нему sentry SDK и отправьте несколько тестовых         событий.
+2. Поэкспериментируйте с различными передаваемыми параметрами, но помните об ограничениях Free учётной записи Cloud Sentry.
+3. В качестве решения задания пришлите скриншот меню issues вашего проекта и пример кода подключения sentry sdk/отсылки         событий.
+
+## Ответ:
+
+<img width="1920" height="1080" alt="Снимок экрана (2366)" src="https://github.com/user-attachments/assets/22652991-5a54-43a0-9fd6-6bcdf1514ede" />
+
+<img width="1920" height="1080" alt="Снимок экрана (2367)" src="https://github.com/user-attachments/assets/4cff235c-8f80-4d34-ba92-c393820a8b3b" />
+
+<img width="1920" height="1080" alt="Снимок экрана (2368)" src="https://github.com/user-attachments/assets/59b5f620-da06-48b0-97fa-30622a9335c1" />
+
+
+
+
 
 
 
